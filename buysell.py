@@ -1,3 +1,8 @@
+#for testing usernames, users enter "George"
+#for selling, users enter "Adidas"
+#users should be added to list
+#[{'name': 'Andy', 'selling': ['nike8', 'Addidas9']}, {'name': 'George', 'selling': ['Adidas']}]
+
 #first we have a list of users where each useer is a dictionary
 users = [{"name":"Andy","selling":["nike8","Addidas9"]}]
 #now let's make a function to add a user
@@ -8,4 +13,5 @@ def signup():
     users.append(user)
 
 signup()
+print(users)
                          
