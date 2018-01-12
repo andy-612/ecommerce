@@ -21,4 +21,3 @@ signup()
 print(users)
 profile=input("which user do you want to view")
 view_profile(profile)
-                         
